@@ -6,13 +6,13 @@
 
   
 - Currency Exchange Service 
-	- myapp/mmv2-currency-exchange-service:0.0.1-SNAPSHOT
+	- fatihmas/myapp/mmv2-currency-exchange-service:0.0.1-SNAPSHOT
 - Currency Conversion Service
-	- myapp/mmv2-currency-conversion-service:0.0.1-SNAPSHOT
+	- fatihmas/myapp/mmv2-currency-conversion-service:0.0.1-SNAPSHOT
 - Eureka
-	- myapp/mmv2-naming-server:0.0.1-SNAPSHOT
+	- fatihmas/myapp/mmv2-naming-server:0.0.1-SNAPSHOT
 - API GATEWAY
-	- myapp/mmv2-api-gateway:0.0.1-SNAPSHOT
+	- fatihmas/myapp/mmv2-api-gateway:0.0.1-SNAPSHOT
 
 ## URLS
 
@@ -38,11 +38,11 @@
 #### Commands
 ```
 docker run -p 9411:9411 openzipkin/zipkin:2.23
-docker push docker.io/myapp/mmv2-currency-exchange-service:0.0.1-SNAPSHOT
+docker push docker.io/fatihmas/myapp/mmv2-currency-exchange-service:0.0.1-SNAPSHOT
 docker-compose --version
 docker-compose up
-docker push myapp/mmv2-naming-server:0.0.1-SNAPSHOT
-docker push myapp/mmv2-currency-conversion-service:0.0.1-SNAPSHOT
-docker push myapp/mmv2-api-gateway:0.0.1-SNAPSHOT
+docker push fatihmas/myapp/mmv2-naming-server:0.0.1-SNAPSHOT
+docker push fatihmas/myapp/mmv2-currency-conversion-service:0.0.1-SNAPSHOT
+docker push fatihmas/myapp/mmv2-api-gateway:0.0.1-SNAPSHOT
 watch -n 0.1 curl http://localhost:8000/sample-api
 ```
