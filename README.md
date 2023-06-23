@@ -2,7 +2,9 @@
 
 ## Images
 
-- https://hub.docker.com/u/myapp
+- https://hub.docker.com/repository/docker/fatihmas/myapp/general
+
+  
 - Currency Exchange Service 
 	- myapp/mmv2-currency-exchange-service:0.0.1-SNAPSHOT
 - Currency Conversion Service
