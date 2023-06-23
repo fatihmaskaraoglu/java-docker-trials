@@ -38,7 +38,7 @@
 #### Commands
 ```
 docker run -p 9411:9411 openzipkin/zipkin:2.23
-docker push docker.io/in28min/mmv2-currency-exchange-service:0.0.1-SNAPSHOT
+docker push docker.io/myapp/mmv2-currency-exchange-service:0.0.1-SNAPSHOT
 docker-compose --version
 docker-compose up
 docker push myapp/mmv2-naming-server:0.0.1-SNAPSHOT
