@@ -1,3 +1,4 @@
+```
 docker run -p 8080:8080 fatihmas/myapp/hello-world-rest-api:0.0.1.RELEASE
 
 kubectl create deployment hello-world-rest-api --image=fatihmas/myapp/hello-world-rest-api:0.0.1.RELEASE
@@ -110,3 +111,4 @@ watch -n 0.1 curl http://34.66.241.150:8100/currency-conversion-feign/from/USD/t
 
 docker push fatihmas/myapp/mmv2-currency-conversion-service:0.0.12-SNAPSHOT
 docker push fatihmas/myapp/mmv2-currency-exchange-service:0.0.12-SNAPSHOT
+```
